@@ -29,10 +29,19 @@ include ("dll/mysql.php");
                             <button type="button" onclick="login();" class="btn btn-default">INGRESAR</button>
                             
 			</form>
-                        
+                        <!--datos para login cliente: usuario:cliente contraseña:cliente -->
                         <script >
                         function login(){
+                        var txtusuario = document.getElementById("usuario").value;
+                        var txtpassword = document.getElementById("contraseña").value;
+                        if ((txtusuario === "cliente")&&(txtpassword === "cliente")){
+                        alert("correcto");
                         window.location="administrador.php";
+                        }
+                        else{
+                        alert("error");
+                        }
+                        
                         }
                         </script>
                         

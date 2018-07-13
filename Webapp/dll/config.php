@@ -3,7 +3,7 @@
 	$site_name="Prestación de Bicicletas";
 	$url_site="http://localhost/Webapp/";
         $adm="Administrador";
-        $Estacion="Estaciones";
+        $Estacion="Admin Estaciones";
         $Cliente="Cliente";
 
 	/*datos de la base de datos*/

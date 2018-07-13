@@ -1,5 +1,5 @@
 <header id="header" class="">
-	<h1><?php echo $site_name; ?></h1>
+	<h1><?php echo $Estacion; ?></h1>
 </header><!-- /header -->
 <nav>
 	<a href="<?=$url_site?>includes/adm Insertar.php" title="Insertar">Insertar</a>
