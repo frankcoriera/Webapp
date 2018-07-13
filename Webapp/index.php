@@ -36,7 +36,7 @@ include ("dll/mysql.php");
                         var txtpassword = document.getElementById("contraseña").value;
                         if ((txtusuario === "cliente")&&(txtpassword === "cliente")){
                         alert("correcto");
-                        window.location="administrador.php";
+                        window.location="adm Estaciones.php";
                         }
                         else{
                         alert("error");
